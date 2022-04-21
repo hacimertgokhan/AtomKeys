@@ -1,0 +1,32 @@
+messages:
+  help:
+    - ""
+    - "&D&lAtomKey &7- &fVersion &2%version%"
+    - " &7/AtomKey testkey <key>"
+    - " &7/AtomKey generatekey <command> <duration>"
+    - " &7/AtomKey removekey <key>"
+    - " &7/AtomKey changeordinary <key>"
+    - " &7/AtomKey listkeys"
+    - ""
+  help-console:
+    - ""
+    - "&D&lAtomKey &7- &fVersion &2%version%"
+    - " &7/AtomKey reload"
+    - " &7/AtomKey checkupdate"
+    - " &7/AtomKey about"
+    - ""
+  key-generated: "&a%key% generated"
+  key-active: "&fKey active, &7Rarity: &d%ordinary%"
+  key-active-test: "&fTest key active"
+  must-be-number: "&cMust be number"
+  no-permission: "&cYou dont have a enough permission to do this !"
+  key-removed: "&cKey removed."
+  ordinary-changed: "&7New ordinary &d%new_ordinary% &7for &5%key%"
+  keys: "&7- &a%keys%"
+  atomkey:
+    usage: "&c/Atomkey generatekey <command> <duration>"
+  error:
+    key-not-found: "&cKey not found"
+    used-key: "&cUsed key"
+    expired-key: "&cExpired key"
+    no-console: "You cant use that command from console."

@@ -1,0 +1,26 @@
+name: AtomKey
+version: '0.1'
+main: net.mixeration.AtomKey.core
+prefix: AtomKey
+load: STARTUP
+authors: [ Mixeration ]
+description: A Plugin for key functions
+website: mixeration.rf.gd
+depend:
+  - Vault
+
+commands:
+  AtomKey:
+    usage: §8§l» §d/AtomKey help
+  key:
+    usage: §8§l» §d/Key <key>
+
+permissions:
+  atomkey.listkeys:
+    description: Atomkey, List key
+  atomkey.generatekey:
+    description: Atomkey, Generate key
+  atomkey.removekey:
+    description: Atomkey, Remove key
+  atomkey.changeordinary:
+    description: Atomkey, Change ordinary
